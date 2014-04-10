@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_afb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+ <!-- Splash screen -->
+        <activity
+            android:name="com.example.app.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+ <!-- Main activity -->
+        <activity
+            android:name="com.example.app.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+  <!-- Home Screen -->
+  		<activity
+  		    android:name="com.example.app.HomeScreen"
+  		    android:label="@string/app_name" >
+   		</activity>
+   		
+    <!-- Innovation -->		
+    	<activity
+    		android:name="com.example.app.Innovation"
+    		android:label="@string/app_name" 
+            android:parentActivityName="com.example.app.HomeScreen" >
+    	</activity>
+  		
+     <!-- Sustainability -->
+     	<activity 
+     	    android:name="com.example.app.Sustainability"
+     	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+       	</activity>
+     
+      <!-- Strategy -->
+      	<activity
+      	    android:name="com.example.app.Strategy"
+      	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+  		</activity>
+  	
+      <!-- Diversity -->
+      	<activity
+      	    android:name="com.example.app.Diversity"
+      	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+  		</activity>
+  		
+	  <!-- Customer -->
+      	<activity
+      	    android:name="com.example.app.Customer"
+      	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+  		</activity>
+  		
+  	  <!-- HRM -->
+      	<activity
+      	    android:name="com.example.app.HRM"
+      	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+  		</activity>
+  		
+      
+ 	  <!-- Results -->
+      	<activity
+      	    android:name="com.example.app.Results"
+      	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+  		</activity>
+
+	  <!-- Leadership & Communication -->
+      	<activity
+      	    android:name="com.example.app.Leadership"
+      	    android:label="@string/app_name" 
+     	    android:parentActivityName="com.example.app.HomeScreen">
+  		</activity>
+      
+      	
+    </application>
+
+</manifest>
