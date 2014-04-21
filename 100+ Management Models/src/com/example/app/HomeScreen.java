@@ -85,7 +85,12 @@ public class HomeScreen extends Activity {
 			finish();
 		}
 		
-
+		public void onClick9 (View view)
+		{ 
+			Intent i = new Intent(HomeScreen.this, Webpage.class);
+			startActivity(i);
+			finish();
+		}
 
 
 
