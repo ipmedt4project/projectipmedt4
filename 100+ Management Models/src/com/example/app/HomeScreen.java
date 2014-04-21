@@ -92,6 +92,13 @@ public class HomeScreen extends Activity {
 			finish();
 		}
 
+		public void onClick10 (View view)
+		{ 
+			Intent i = new Intent(HomeScreen.this, About.class);
+			startActivity(i);
+			finish();
+		}
+		
 
 
 }
