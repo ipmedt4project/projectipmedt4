@@ -7,81 +7,89 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:text="Sustainability" 
-        android:onClick="onClick1"  />
+        android:onClick="onClick1"
+        android:text="Sustainability"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/button1"
         android:layout_alignRight="@+id/button1"
         android:layout_below="@+id/button2"
+        android:onClick="onClick3"
         android:text="Strategy"
-        android:onClick="onClick3" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/button3"
         android:layout_alignRight="@+id/button3"
         android:layout_below="@+id/button1"
+        android:onClick="onClick2"
         android:text="Innovation"
-        android:onClick="onClick2" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/button3"
-        android:text="Diversity" 
-        android:onClick="onClick4"/>
+        android:onClick="onClick4"
+        android:text="Diversity"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/button4"
         android:layout_alignRight="@+id/button4"
         android:layout_below="@+id/button4"
+        android:onClick="onClick5"
         android:text="Customer"
-        android:onClick="onClick5" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/button5"
         android:layout_alignRight="@+id/button5"
         android:layout_below="@+id/button5"
+        android:onClick="onClick6"
         android:text="HRM"
-        android:onClick="onClick6" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/button6"
         android:layout_alignRight="@+id/button6"
         android:layout_below="@+id/button6"
-        android:text="Results" 
-        android:onClick="onClick7"/>
+        android:onClick="onClick7"
+        android:text="Results"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_below="@+id/button7"
         android:layout_centerHorizontal="true"
-        android:text="Leadership &amp; Communication" 
-        android:onClick="onClick8"/>
+        android:onClick="onClick8"
+        android:text="Leadership &amp; Communication"
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/textView1"
@@ -94,5 +102,28 @@
         android:text="Management Modellen"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bestellen"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Order"
+        android:onClick="onClick9" />
+
+    <Button
+        android:id="@+id/About"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bestellen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="About us" 
+        android:onClick="onClick10"/>
 
 </RelativeLayout>

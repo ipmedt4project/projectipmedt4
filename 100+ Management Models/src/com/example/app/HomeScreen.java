@@ -1,6 +1,6 @@
 package com.example.app;
 
-import android.app.Activity;
+import android.app.Activity; 
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
@@ -85,8 +85,20 @@ public class HomeScreen extends Activity {
 			finish();
 		}
 		
+		public void onClick9 (View view)
+		{ 
+			Intent i = new Intent(HomeScreen.this, Webpage.class);
+			startActivity(i);
+			finish();
+		}
 
-
+		public void onClick10 (View view)
+		{ 
+			Intent i = new Intent(HomeScreen.this, About.class);
+			startActivity(i);
+			finish();
+		}
+		
 
 
 }
