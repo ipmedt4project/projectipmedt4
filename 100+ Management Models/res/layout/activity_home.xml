@@ -112,7 +112,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
-        android:text="Bestellen"
+        android:text="Order"
         android:onClick="onClick9" />
 
     <Button
