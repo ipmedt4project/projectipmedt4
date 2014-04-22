@@ -36,7 +36,7 @@ public final class R {
     }
     public static final class id {
         public static final int About=0x7f08000f;
-        public static final int action_settings=0x7f080012;
+        public static final int action_settings=0x7f080013;
         public static final int bestellen=0x7f08000e;
         public static final int button1=0x7f080006;
         public static final int button2=0x7f080008;
@@ -46,10 +46,11 @@ public final class R {
         public static final int button6=0x7f08000b;
         public static final int button7=0x7f08000c;
         public static final int button8=0x7f08000d;
+        public static final int button9=0x7f080010;
         public static final int clearbase=0x7f080005;
         public static final int imageView1=0x7f080003;
-        public static final int imgLogo=0x7f080010;
-        public static final int progressBar1=0x7f080011;
+        public static final int imgLogo=0x7f080011;
+        public static final int progressBar1=0x7f080012;
         public static final int textView1=0x7f080000;
         public static final int textView2=0x7f080004;
         public static final int video=0x7f080001;
