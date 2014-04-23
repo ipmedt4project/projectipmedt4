@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Leadership extends Activity {
 
@@ -50,6 +51,22 @@ public class Leadership extends Activity {
 		    }
 
 		    return(super.onOptionsItemSelected(item));
+		}
+		
+		public void onClickmod15(View view)
+		{
+			Intent i = new Intent(Leadership.this, LeadershipMod15.class);
+			startActivity(i);
+			
+			finish();
+		}
+		
+		public void onClickmod16(View view)
+		{
+			Intent i = new Intent(Leadership.this, LeadershipMod16.class);
+			startActivity(i);
+			
+			finish();
 		}
 		
 }

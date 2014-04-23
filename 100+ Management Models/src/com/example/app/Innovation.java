@@ -53,7 +53,7 @@ public class Innovation extends Activity {
 		    return(super.onOptionsItemSelected(item));
 		}
 		
-		public void onClickmod1(View view)
+		public void onClickmod3(View view)
 		{
 			Intent i = new Intent(Innovation.this, InnovationMod3.class);
 			startActivity(i);
@@ -61,7 +61,7 @@ public class Innovation extends Activity {
 			finish();
 		}
 		
-		public void onClickmod8(View view)
+		public void onClickmod4(View view)
 		{
 			Intent i = new Intent(Innovation.this, InnovationMod4.class);
 			startActivity(i);

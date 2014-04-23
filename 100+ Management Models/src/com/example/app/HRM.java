@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class HRM extends Activity {
 
@@ -50,5 +51,21 @@ public class HRM extends Activity {
 		    }
 
 		    return(super.onOptionsItemSelected(item));
+		}
+		
+		public void onClickmod11(View view)
+		{
+			Intent i = new Intent(HRM.this, HRMMod11.class);
+			startActivity(i);
+			
+			finish();
+		}
+		
+		public void onClickmod12(View view)
+		{
+			Intent i = new Intent(HRM.this, HRMMod12.class);
+			startActivity(i);
+			
+			finish();
 		}
 }

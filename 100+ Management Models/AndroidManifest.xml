@@ -88,6 +88,20 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
+  		
+      	    <!-- Strategy Model5 -->
+      		<activity
+      		    android:name="com.example.app.StrategyMod5"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Strategy">
+      		</activity>
+      		
+  			<!-- Strategy Model6 -->
+      		<activity
+      		    android:name="com.example.app.StrategyMod6"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Strategy">
+      		</activity>
   	
       <!-- Diversity -->
       	<activity
@@ -138,6 +152,20 @@
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
   		
+      		<!-- HRM Model11 -->
+      		<activity
+      		    android:name="com.example.app.HRMMod11"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.HRM">
+      		</activity>
+      		
+  			<!-- HRM Model12 -->
+      		<activity
+      		    android:name="com.example.app.HRMMod12"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.HRM">
+      		</activity>
+  		
       
  	  <!-- Results -->
       	<activity
@@ -145,6 +173,20 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
+  		
+  			<!-- Results Model13 -->
+      		<activity
+      		    android:name="com.example.app.ResultsMod13"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Results">
+      		</activity>
+      		
+  			<!-- Results Model14 -->
+      		<activity
+      		    android:name="com.example.app.ResultsMod14"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Results">
+      		</activity>
 
 	  <!-- Leadership & Communication -->
       	<activity
@@ -152,6 +194,20 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
+  		
+      	    <!-- Leadership Model15 -->
+      		<activity
+      		    android:name="com.example.app.LeadershipMod15"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Leadership">
+      		</activity>
+      		
+  			<!-- Sustainability Model16 -->
+      		<activity
+      		    android:name="com.example.app.LeadershipMod16"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Leadership">
+      		</activity>
   		
 	  <!-- Webpage -->
       	<activity

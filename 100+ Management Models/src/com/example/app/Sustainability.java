@@ -61,7 +61,7 @@ public class Sustainability extends Activity {
 			finish();
 		}
 		
-		public void onClickmod8(View view)
+		public void onClickmod2(View view)
 		{
 			Intent i = new Intent(Sustainability.this, SustainabilityMod2.class);
 			startActivity(i);
