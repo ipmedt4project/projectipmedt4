@@ -5,18 +5,6 @@
     android:orientation="vertical"
     android:background="@drawable/background" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="42dp"
-        android:text="Wij zijn blablablabla, wij doen dit dit dit, als je op de knop hieronder drukt kun je een video bekijken van ons. LET OP, de video wordt in een nieuw scherm geopend" />
-    
-
     <Button
         android:id="@+id/video"
         android:layout_width="wrap_content"
@@ -27,5 +15,35 @@
         android:layout_marginBottom="59dp"
         android:text="Klik hier om de video te bekijken" 
         android:onClick="videoView"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/video"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="To focus our application of science, we worked in 2013 with Trompenaars-Hampden Turner to bundle and position what we consider to be the most powerful management theories for the organizations our students will work for." />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="At the Faculty of Management &amp; Business of University of Applied Sciences Leiden we identify, teach, test and enrich the most powerful academic theories for our 2.000 students in Communication, Economics, HRM, Social care management, Health care Management and Law. This is how we implement knowledge valorization: making academic knowledge work." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="About Us"
+        android:textSize="28dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
