@@ -46,6 +46,20 @@
     		android:label="@string/app_name" 
             android:parentActivityName="com.example.app.HomeScreen" >
     	</activity>
+    	
+    		<!-- Innovation Model3 -->
+      		<activity
+      		    android:name="com.example.app.InnovationMod3"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Innovation">
+      		</activity>
+      		
+  			<!-- Innovation Model4 -->
+      		<activity
+      		    android:name="com.example.app.InnovationMod4"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Innovation">
+      		</activity>
   		
      <!-- Sustainability -->
      	<activity 
@@ -53,6 +67,20 @@
      	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
        	</activity>
+       	
+       		<!-- Sustainability Model1 -->
+      		<activity
+      		    android:name="com.example.app.SustainabilityMod1"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Sustainability">
+      		</activity>
+      		
+  			<!-- Sustainability Model2 -->
+      		<activity
+      		    android:name="com.example.app.SustainabilityMod2"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Sustainability">
+      		</activity>
      
       <!-- Strategy -->
       	<activity
@@ -68,6 +96,20 @@
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
   		
+      		<!-- Diversity Model7 -->
+      		<activity
+      		    android:name="com.example.app.DiversityMod7"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Diversity">
+      		</activity>
+      		
+  			<!-- Diversity Model8 -->
+      		<activity
+      		    android:name="com.example.app.DiversityMod8"
+      		    android:label="@string/app_name"
+      		    android:parentActivityName="com.example.app.Diversity">
+      		</activity>
+      		
 	  <!-- Customer -->
       	<activity
       	    android:name="com.example.app.Customer"

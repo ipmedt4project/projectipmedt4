@@ -82,16 +82,22 @@ public final class R {
         public static final int activity_customermodel9=0x7f030004;
         public static final int activity_database=0x7f030005;
         public static final int activity_diversity=0x7f030006;
-        public static final int activity_home=0x7f030007;
-        public static final int activity_hrm=0x7f030008;
-        public static final int activity_innovation=0x7f030009;
-        public static final int activity_leadership=0x7f03000a;
-        public static final int activity_main=0x7f03000b;
-        public static final int activity_results=0x7f03000c;
-        public static final int activity_splash=0x7f03000d;
-        public static final int activity_strategy=0x7f03000e;
-        public static final int activity_sustainability=0x7f03000f;
-        public static final int activity_web=0x7f030010;
+        public static final int activity_diversitymodel7=0x7f030007;
+        public static final int activity_diversitymodel8=0x7f030008;
+        public static final int activity_home=0x7f030009;
+        public static final int activity_hrm=0x7f03000a;
+        public static final int activity_innovation=0x7f03000b;
+        public static final int activity_innovationmodel3=0x7f03000c;
+        public static final int activity_innovationmodel4=0x7f03000d;
+        public static final int activity_leadership=0x7f03000e;
+        public static final int activity_main=0x7f03000f;
+        public static final int activity_results=0x7f030010;
+        public static final int activity_splash=0x7f030011;
+        public static final int activity_strategy=0x7f030012;
+        public static final int activity_sustainability=0x7f030013;
+        public static final int activity_sustainabilitymodel1=0x7f030014;
+        public static final int activity_sustainabilitymodel2=0x7f030015;
+        public static final int activity_web=0x7f030016;
     }
     public static final class menu {
         public static final int main=0x7f070000;

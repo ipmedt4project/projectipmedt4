@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Innovation extends Activity {
 
@@ -50,5 +51,21 @@ public class Innovation extends Activity {
 		    }
 
 		    return(super.onOptionsItemSelected(item));
+		}
+		
+		public void onClickmod1(View view)
+		{
+			Intent i = new Intent(Innovation.this, InnovationMod3.class);
+			startActivity(i);
+			
+			finish();
+		}
+		
+		public void onClickmod8(View view)
+		{
+			Intent i = new Intent(Innovation.this, InnovationMod4.class);
+			startActivity(i);
+			
+			finish();
 		}
 }

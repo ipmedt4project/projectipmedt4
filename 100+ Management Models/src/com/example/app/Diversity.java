@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Diversity extends Activity {
 
@@ -51,4 +52,19 @@ public class Diversity extends Activity {
 		    return(super.onOptionsItemSelected(item));
 		}
 		
+		public void onClickmod7(View view)
+		{
+			Intent i = new Intent(Diversity.this, DiversityMod7.class);
+			startActivity(i);
+			
+			finish();
+		}
+		
+		public void onClickmod8(View view)
+		{
+			Intent i = new Intent(Diversity.this, DiversityMod8.class);
+			startActivity(i);
+			
+			finish();
+		}
 }

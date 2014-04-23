@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Sustainability extends Activity {
 
@@ -50,6 +51,22 @@ public class Sustainability extends Activity {
 		    }
 
 		    return(super.onOptionsItemSelected(item));
+		}
+		
+		public void onClickmod1(View view)
+		{
+			Intent i = new Intent(Sustainability.this, SustainabilityMod1.class);
+			startActivity(i);
+			
+			finish();
+		}
+		
+		public void onClickmod8(View view)
+		{
+			Intent i = new Intent(Sustainability.this, SustainabilityMod2.class);
+			startActivity(i);
+			
+			finish();
 		}
 
 }
