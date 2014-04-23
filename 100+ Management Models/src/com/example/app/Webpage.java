@@ -28,6 +28,13 @@ public class Webpage extends Activity {
 		
 	}
 	
+	public void onClick2(View view){
+		
+		Intent i = new Intent(Webpage.this, Bolcom.class);
+		startActivity(i);
+		finish();
+	}
+	
 	@Override
     public boolean onKeyDown(int keyCode, KeyEvent event)
 	{

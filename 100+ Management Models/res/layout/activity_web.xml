@@ -24,13 +24,24 @@
         android:text="Hier komt de tekst over het boek" />
 
     <Button
-        android:id="@+id/bestellen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="52dp"
-        android:text="Order product" 
-        android:onClick = "onClick1" />
+        android:id="@+id/amazon"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="52dp"
+        android:onClick="onClick1"
+        android:text="Order product via Amazon.com" />
+
+    <Button
+        android:id="@+id/bolcom"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/amazon"
+        android:layout_marginLeft="14dp"
+        android:onClick="onClick2"
+        android:text="Order product via Bol.com" />
 
 </RelativeLayout>

@@ -56,7 +56,7 @@
              android:layout_marginTop="26dp"
              android:layout_toRightOf="@+id/textView2"
              android:onClick="onClickmod10"
-             android:text="Model 5.9" />
+             android:text="Model 42" />
 
          <Button
              android:id="@+id/button2"
@@ -67,6 +67,6 @@
              android:layout_alignBottom="@+id/button1"
              android:layout_toLeftOf="@+id/textView2"
              android:onClick="onClickmod9"
-             android:text="Model 5.8" />
+             android:text="Model 41" />
 
 </RelativeLayout>

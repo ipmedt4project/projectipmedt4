@@ -22,7 +22,7 @@ public class Amazon extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_amazon);
 		
-		browser = (WebView) findViewById(R.id.webview);
+		browser = (WebView) findViewById(R.id.webview2);
 		
 		browser.setWebViewClient(new WebViewClient());
 		
