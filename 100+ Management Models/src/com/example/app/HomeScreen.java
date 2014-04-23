@@ -99,7 +99,6 @@ public class HomeScreen extends Activity {
 		public void onClick10 (View view)
 		{ 
 			Intent i = new Intent(HomeScreen.this, About.class);
-			i.putE("db", dbmodels);
 			startActivity(i);
 			finish();
 		}
