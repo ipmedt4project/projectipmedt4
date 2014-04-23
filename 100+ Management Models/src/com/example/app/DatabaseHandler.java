@@ -35,7 +35,10 @@ public class DatabaseHandler extends SQLiteOpenHelper{
     // Creating Tables
     @Override
     public void onCreate(SQLiteDatabase db) {
-    	     	
+    	 
+    	db.execSQL("DROP TABLE IF EXISTS " + TABLE_MODELS);
+    	System.out.println("Tables dropped");
+    	
     	String CREATE_MODEL_TABLE = "CREATE TABLE " + TABLE_MODELS + "("
                 + KEY_ID + " INTEGER PRIMARY KEY," + KEY_TEXT + " TEXT " + ")";
        
