@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background" >
-    
+    android:background="@drawable/background"
+    android:duplicateParentState="true" >
  
         <TextView
         android:id="@+id/textView1"
@@ -36,5 +36,37 @@
             android:text="Customer"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView1"
+             android:layout_marginTop="14dp"
+             android:layout_marginLeft="20dp"
+             android:text="Fashion 5 (the customer is king and quality is crucial) becomes Element 5 (“Customer”)." />
+
+         <Button
+             android:id="@+id/button1"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView1"
+             android:layout_marginTop="26dp"
+             android:layout_toRightOf="@+id/textView2"
+             android:onClick="onClickmod10"
+             android:text="Model 5.9" />
+
+         <Button
+             android:id="@+id/button2"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/button1"
+             android:layout_alignBottom="@+id/button1"
+             android:layout_toLeftOf="@+id/textView2"
+             android:onClick="onClickmod9"
+             android:text="Model 5.8" />
 
 </RelativeLayout>
