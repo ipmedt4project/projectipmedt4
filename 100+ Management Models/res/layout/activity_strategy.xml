@@ -59,4 +59,15 @@
              android:onClick="onClickmod6"
              android:text="Model 23" />
 
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/button2"
+             android:layout_centerHorizontal="true"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="46dp"
+             android:text=" Fashion 4 (The CEO as a strategist of a large organisation) becomes Element 3 (“Strategy”)." />
+
 </RelativeLayout>

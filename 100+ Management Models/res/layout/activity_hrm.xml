@@ -59,4 +59,15 @@
              android:onClick="onClickmod12"
              android:text="Model 51" />
 
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/button1"
+             android:layout_centerHorizontal="true"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="31dp"
+             android:text="Fashion 3 (discovering Human Potential as crucial for success) has become Element 6 (“Human Resources”)." />
+
 </RelativeLayout>

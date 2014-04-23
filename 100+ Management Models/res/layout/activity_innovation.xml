@@ -58,6 +58,15 @@
              android:onClick="onClickmod4"
              android:text="Model 14" />
 
-    
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/textView2"
+             android:layout_centerHorizontal="true"
+             android:layout_marginBottom="54dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="Fashion 1 (the creative power of Entrepreneurship) has become Element 2 (“Innovation”)." />
 
 </RelativeLayout>

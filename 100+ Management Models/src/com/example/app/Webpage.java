@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class Webpage extends Activity {
 
@@ -15,7 +16,12 @@ public class Webpage extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_web);
+		DatabaseModels db = new DatabaseModels(savedInstanceState, this);
+		db.db.getModel(1);
 		
+		
+		TextView text = (TextView) findViewById(R.id.textView1);
+		text.setText(db.db.getModel(1).getModeltext());
 		
 	}
 

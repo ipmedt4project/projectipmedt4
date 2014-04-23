@@ -49,7 +49,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event)
 @Override
 public void onBackPressed()
 {
-	Intent i = new Intent(About.this, Webpage.class);
+	Intent i = new Intent(About.this, HomeScreen.class);
 	startActivity(i);
 	finish();
    
@@ -61,7 +61,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
         	
         	//System.out.println("UP Pressed");
         	
-        	Intent i = new Intent(About.this, Webpage.class);
+        	Intent i = new Intent(About.this, HomeScreen.class);
         	startActivity(i);
         	
         	finish();

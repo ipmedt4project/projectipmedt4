@@ -69,4 +69,15 @@
              android:onClick="onClickmod9"
              android:text="Model 41" />
 
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/button2"
+             android:layout_centerHorizontal="true"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="32dp"
+             android:text=" Fashion 5 (the customer is king and quality is crucial) becomes Element 5 (“Customer”)." />
+
 </RelativeLayout>

@@ -31,31 +31,42 @@
          <ImageView
              android:id="@+id/imageView1"
              android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
+             android:layout_height="250dp"
              android:layout_below="@+id/textView1"
              android:layout_centerHorizontal="true"
              android:src="@drawable/leadership" />
-
-         <Button
-             android:id="@+id/button2"
-             style="?android:attr/buttonStyleSmall"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignBottom="@+id/button1"
-             android:layout_alignParentLeft="true"
-             android:layout_marginLeft="20dp"
-             android:onClick="onClickmod16"
-             android:text="Model 67" />
 
          <Button
              android:id="@+id/button1"
              style="?android:attr/buttonStyleSmall"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:layout_alignParentRight="true"
+             android:layout_alignRight="@+id/textView2"
              android:layout_below="@+id/imageView1"
-             android:layout_marginRight="20dp"
+             android:layout_marginTop="14dp"
              android:onClick="onClickmod15"
              android:text="Model 63" />
+
+         <Button
+             android:id="@+id/button2"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/button1"
+             android:layout_alignBottom="@+id/button1"
+             android:layout_alignLeft="@+id/textView2"
+             android:onClick="onClickmod16"
+             android:text="Model 67" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/button1"
+             android:layout_centerHorizontal="true"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="18dp"
+             android:text="Finally, we found that knowledge on the power of leadership and communication enables to move organisations." />
 
 </RelativeLayout>

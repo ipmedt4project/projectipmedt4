@@ -14,15 +14,6 @@
         android:layout_marginTop="23dp"
         android:src="@drawable/cover" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_marginLeft="16dp"
-        android:layout_toRightOf="@+id/imageView1"
-        android:text="Hier komt de tekst over het boek" />
-
     <Button
         android:id="@+id/amazon"
         android:layout_width="130dp"
@@ -43,5 +34,14 @@
         android:layout_marginLeft="14dp"
         android:onClick="onClick2"
         android:text="Order product via Bol.com" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/amazon"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="15dp"
+        />
 
 </RelativeLayout>

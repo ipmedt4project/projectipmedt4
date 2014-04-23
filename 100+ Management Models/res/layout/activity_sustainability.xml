@@ -59,4 +59,15 @@
              android:onClick="onClickmod1"
              android:text="Model 7" />
 
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/button1"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="14dp"
+             android:text="Fashion 8 (People, Planet, Profit) has become Element 1 (“Sustainability”), as it is now the dominant paradigm and starting point for most organisational leaders." />
+
 </RelativeLayout>

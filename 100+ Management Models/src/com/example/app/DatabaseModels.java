@@ -27,17 +27,14 @@ public class DatabaseModels{
 		db.onCreate(db.getWritableDatabase());
     	System.out.println("Start Database");
        
-
+    
                  
         /**
          * CRUD Operations
          * */
         // Inserting Contacts
         Log.d("Insert: ", "Inserting .."); 
-        db.addModel(new Model("Model 1 text"));        
-        db.addModel(new Model("Model 2 text"));
-        db.addModel(new Model("Model 3 text"));
-        db.addModel(new Model("Model 4 text"));
+        db.addModel(new Model("100+ Management Models offers a quick overview of the key features and potential applications of each of the most important models in nine different categories."));        
          
         // Reading all contacts
         Log.d("Reading: ", "Reading all contacts.."); 
@@ -49,8 +46,8 @@ public class DatabaseModels{
         Log.d("Model: ", log);
         
         
+        	}
         
-    }
   }
 
   }
