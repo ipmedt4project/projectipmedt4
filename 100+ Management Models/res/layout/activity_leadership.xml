@@ -16,15 +16,6 @@
         android:text="Management Modellen"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/leadership" />
         
         <TextView
             android:id="@+id/textView2"
@@ -36,5 +27,35 @@
             android:text="Leadership &amp; Communication"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/textView1"
+             android:layout_centerHorizontal="true"
+             android:src="@drawable/leadership" />
+
+         <Button
+             android:id="@+id/button2"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/button1"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="20dp"
+             android:onClick="onClickmod16"
+             android:text="Model 8.7" />
+
+         <Button
+             android:id="@+id/button1"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_below="@+id/imageView1"
+             android:layout_marginRight="20dp"
+             android:onClick="onClickmod15"
+             android:text="Model 8.3" />
 
 </RelativeLayout>
