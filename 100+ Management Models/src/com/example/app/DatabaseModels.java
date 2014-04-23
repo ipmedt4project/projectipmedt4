@@ -17,16 +17,20 @@ import android.widget.Toast;
  
 public class DatabaseModels extends Activity {
 
-	 DatabaseHandler db = new DatabaseHandler(this);
+	DatabaseHandler db;
 
 	 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
     	
+		db = new DatabaseHandler(this);
+		
     	System.out.println("Start Database");
     	
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_database);
+        setContentView(R.layout.activity_home);
+        
+        
 
                  
         /**
@@ -61,6 +65,7 @@ public class DatabaseModels extends Activity {
     public void onClick01(View view)
     {
     	Toast.makeText(this, "DAT ZOU JE WEL WILLEN JAH, TIEFUSMONGOOL", Toast.LENGTH_SHORT).show(); 
+    	
     }
     
     @Override

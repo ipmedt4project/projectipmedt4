@@ -19,6 +19,10 @@ public class HomeScreen extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
+		
+		Intent i = new Intent(HomeScreen.this, DatabaseModels.class);
+		startActivity(i);
+		finish();
 
 		
 	}
@@ -102,9 +106,7 @@ public class HomeScreen extends Activity {
 		
 		public void onClick11 (View view)
 		{
-			Intent i = new Intent(HomeScreen.this, DatabaseModels.class);
-			startActivity(i);
-			finish();
+
 		}
 
 
