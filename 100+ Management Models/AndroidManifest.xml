@@ -75,14 +75,14 @@
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
   		
-  			<!-- Customer Model8 -->
+  			<!-- Customer Model9 -->
   			<activity 
   			    android:name="com.example.app.CustomerMod9"
   			    android:label="@string/app_name"
   			    android:parentActivityName="com.example.app.Customer">
   			</activity>
   			
-  			<!-- Customer Model9 -->
+  			<!-- Customer Model10 -->
   			<activity 
   			    android:name="com.example.app.CustomerMod10"
   			    android:label="@string/app_name"

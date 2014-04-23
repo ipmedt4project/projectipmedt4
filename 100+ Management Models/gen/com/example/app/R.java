@@ -79,8 +79,8 @@ public final class R {
         public static final int activity_about=0x7f030000;
         public static final int activity_amazon=0x7f030001;
         public static final int activity_customer=0x7f030002;
-        public static final int activity_customermod10=0x7f030003;
-        public static final int activity_customermod9=0x7f030004;
+        public static final int activity_customermod9=0x7f030003;
+        public static final int activity_customermodel10=0x7f030004;
         public static final int activity_database=0x7f030005;
         public static final int activity_diversity=0x7f030006;
         public static final int activity_home=0x7f030007;
