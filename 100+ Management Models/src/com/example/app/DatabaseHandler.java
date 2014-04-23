@@ -1,6 +1,6 @@
 package com.example.app;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.List;
 
 import android.content.ContentValues;
@@ -8,6 +8,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Button;
 
 public class DatabaseHandler extends SQLiteOpenHelper{
 	
@@ -53,10 +54,10 @@ public class DatabaseHandler extends SQLiteOpenHelper{
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Drop older table if existed
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_MODELS);
- 
-        // Create tables again
-        onCreate(db);
+//        db.execSQL("DROP TABLE IF EXISTS " + TABLE_MODELS);
+// 
+//        // Create tables again
+//        onCreate(db);
     }
     
     
