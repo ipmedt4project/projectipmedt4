@@ -78,20 +78,18 @@ public final class R {
         public static final int activity_about=0x7f030000;
         public static final int activity_amazon=0x7f030001;
         public static final int activity_customer=0x7f030002;
-        public static final int activity_customermodel10=0x7f030003;
-        public static final int activity_customermodel9=0x7f030004;
-        public static final int activity_database=0x7f030005;
-        public static final int activity_diversity=0x7f030006;
-        public static final int activity_home=0x7f030007;
-        public static final int activity_hrm=0x7f030008;
-        public static final int activity_innovation=0x7f030009;
-        public static final int activity_leadership=0x7f03000a;
-        public static final int activity_main=0x7f03000b;
-        public static final int activity_results=0x7f03000c;
-        public static final int activity_splash=0x7f03000d;
-        public static final int activity_strategy=0x7f03000e;
-        public static final int activity_sustainability=0x7f03000f;
-        public static final int activity_web=0x7f030010;
+        public static final int activity_database=0x7f030003;
+        public static final int activity_diversity=0x7f030004;
+        public static final int activity_home=0x7f030005;
+        public static final int activity_hrm=0x7f030006;
+        public static final int activity_innovation=0x7f030007;
+        public static final int activity_leadership=0x7f030008;
+        public static final int activity_main=0x7f030009;
+        public static final int activity_results=0x7f03000a;
+        public static final int activity_splash=0x7f03000b;
+        public static final int activity_strategy=0x7f03000c;
+        public static final int activity_sustainability=0x7f03000d;
+        public static final int activity_web=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f070000;
