@@ -126,15 +126,5 @@
         android:text="About us" 
         android:onClick="onClick10"/>
 
- <!--   <Button
-        android:id="@+id/button9"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/button7"
-        android:layout_alignTop="@+id/About"
-        android:text="Database"
-        android:onClick="onClick11"/>
- -->
 
 </RelativeLayout>

@@ -229,13 +229,6 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.Homescreen">
   		</activity> 
-  		
-	<!-- Database -->
-  		<activity
-        android:name="com.example.app.DatabaseModels"
-        android:label="@string/app_name" >
-        </activity>
-      	
       	
     </application>
 

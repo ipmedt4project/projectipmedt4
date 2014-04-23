@@ -46,6 +46,7 @@
     		android:label="@string/app_name" 
             android:parentActivityName="com.example.app.HomeScreen" >
     	</activity>
+<<<<<<< HEAD
     	
     		<!-- Innovation Model3 -->
       		<activity
@@ -60,6 +61,8 @@
       		    android:label="@string/app_name"
       		    android:parentActivityName="com.example.app.Innovation">
       		</activity>
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
   		
      <!-- Sustainability -->
      	<activity 
@@ -67,6 +70,7 @@
      	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
        	</activity>
+<<<<<<< HEAD
        	
        		<!-- Sustainability Model1 -->
       		<activity
@@ -81,6 +85,8 @@
       		    android:label="@string/app_name"
       		    android:parentActivityName="com.example.app.Sustainability">
       		</activity>
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
      
       <!-- Strategy -->
       	<activity
@@ -88,6 +94,7 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
+<<<<<<< HEAD
   		
       	    <!-- Strategy Model5 -->
       		<activity
@@ -102,6 +109,8 @@
       		    android:label="@string/app_name"
       		    android:parentActivityName="com.example.app.Strategy">
       		</activity>
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
   	
       <!-- Diversity -->
       	<activity
@@ -110,6 +119,7 @@
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
   		
+<<<<<<< HEAD
       		<!-- Diversity Model7 -->
       		<activity
       		    android:name="com.example.app.DiversityMod7"
@@ -124,6 +134,8 @@
       		    android:parentActivityName="com.example.app.Diversity">
       		</activity>
       		
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
 	  <!-- Customer -->
       	<activity
       	    android:name="com.example.app.Customer"
@@ -152,6 +164,7 @@
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
   		
+<<<<<<< HEAD
       		<!-- HRM Model11 -->
       		<activity
       		    android:name="com.example.app.HRMMod11"
@@ -166,6 +179,8 @@
       		    android:parentActivityName="com.example.app.HRM">
       		</activity>
   		
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
       
  	  <!-- Results -->
       	<activity
@@ -173,6 +188,7 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
+<<<<<<< HEAD
   		
   			<!-- Results Model13 -->
       		<activity
@@ -187,6 +203,8 @@
       		    android:label="@string/app_name"
       		    android:parentActivityName="com.example.app.Results">
       		</activity>
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
 
 	  <!-- Leadership & Communication -->
       	<activity
@@ -195,6 +213,7 @@
      	    android:parentActivityName="com.example.app.HomeScreen">
   		</activity>
   		
+<<<<<<< HEAD
       	    <!-- Leadership Model15 -->
       		<activity
       		    android:name="com.example.app.LeadershipMod15"
@@ -209,6 +228,8 @@
       		    android:parentActivityName="com.example.app.Leadership">
       		</activity>
   		
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
 	  <!-- Webpage -->
       	<activity
       	    android:name="com.example.app.Webpage"
@@ -229,6 +250,7 @@
       	    android:label="@string/app_name" 
      	    android:parentActivityName="com.example.app.Homescreen">
   		</activity> 
+<<<<<<< HEAD
   		
 	<!-- Database -->
   		<activity
@@ -236,6 +258,8 @@
         android:label="@string/app_name" >
         </activity>
       	
+=======
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
       	
     </application>
 

@@ -51,21 +51,20 @@ public final class R {
         public static final int sustainability=0x7f02001b;
     }
     public static final class id {
-        public static final int About=0x7f080010;
-        public static final int action_settings=0x7f080013;
-        public static final int bestellen=0x7f08000f;
+        public static final int About=0x7f08000f;
+        public static final int action_settings=0x7f080012;
+        public static final int bestellen=0x7f08000e;
         public static final int button1=0x7f080006;
         public static final int button2=0x7f080007;
-        public static final int button3=0x7f080009;
-        public static final int button4=0x7f08000a;
-        public static final int button5=0x7f08000b;
-        public static final int button6=0x7f08000c;
-        public static final int button7=0x7f08000d;
-        public static final int button8=0x7f08000e;
-        public static final int clearbase=0x7f080008;
+        public static final int button3=0x7f080008;
+        public static final int button4=0x7f080009;
+        public static final int button5=0x7f08000a;
+        public static final int button6=0x7f08000b;
+        public static final int button7=0x7f08000c;
+        public static final int button8=0x7f08000d;
         public static final int imageView1=0x7f080005;
-        public static final int imgLogo=0x7f080011;
-        public static final int progressBar1=0x7f080012;
+        public static final int imgLogo=0x7f080010;
+        public static final int progressBar1=0x7f080011;
         public static final int textView1=0x7f080002;
         public static final int textView2=0x7f080001;
         public static final int textView3=0x7f080003;
@@ -76,6 +75,7 @@ public final class R {
         public static final int activity_about=0x7f030000;
         public static final int activity_amazon=0x7f030001;
         public static final int activity_customer=0x7f030002;
+<<<<<<< HEAD
         public static final int activity_database=0x7f030003;
         public static final int activity_diversity=0x7f030004;
         public static final int activity_diversitymodel7=0x7f030005;
@@ -102,6 +102,19 @@ public final class R {
         public static final int activity_sustainabilitymodel1=0x7f03001a;
         public static final int activity_sustainabilitymodel2=0x7f03001b;
         public static final int activity_web=0x7f03001c;
+=======
+        public static final int activity_diversity=0x7f030003;
+        public static final int activity_home=0x7f030004;
+        public static final int activity_hrm=0x7f030005;
+        public static final int activity_innovation=0x7f030006;
+        public static final int activity_leadership=0x7f030007;
+        public static final int activity_main=0x7f030008;
+        public static final int activity_results=0x7f030009;
+        public static final int activity_splash=0x7f03000a;
+        public static final int activity_strategy=0x7f03000b;
+        public static final int activity_sustainability=0x7f03000c;
+        public static final int activity_web=0x7f03000d;
+>>>>>>> 161142dd6df9c660b75c185adcc814ce7dd7ffc5
     }
     public static final class menu {
         public static final int main=0x7f070000;
