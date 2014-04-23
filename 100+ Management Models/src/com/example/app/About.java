@@ -9,6 +9,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.view.KeyEvent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -33,6 +34,44 @@ public void videoView(View view){
 	finish();
 	
 }
+
+@Override
+public boolean onKeyDown(int keyCode, KeyEvent event)
+{
+    if ((keyCode == KeyEvent.KEYCODE_BACK)) 
+    {
+        onBackPressed();
+        System.out.println("Back pressed");
+    }
+   
+	return true;
+}
+@Override
+public void onBackPressed()
+{
+	Intent i = new Intent(About.this, Webpage.class);
+	startActivity(i);
+	finish();
+   
+}
+@Override
+public boolean onOptionsItemSelected(MenuItem item) {
+    switch (item.getItemId()) {
+        case android.R.id.home:
+        	
+        	//System.out.println("UP Pressed");
+        	
+        	Intent i = new Intent(About.this, Webpage.class);
+        	startActivity(i);
+        	
+        	finish();
+        	
+            return(true);
+    }
+
+    return(super.onOptionsItemSelected(item));
+}
+
 }
 
 

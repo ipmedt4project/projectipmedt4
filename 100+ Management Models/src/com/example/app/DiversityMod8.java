@@ -28,7 +28,7 @@ public class DiversityMod8 extends Activity {
 		@Override
 	    public void onBackPressed()
 		{
-			Intent i = new Intent(DiversityMod8.this, Customer.class);
+			Intent i = new Intent(DiversityMod8.this, Diversity.class);
 			startActivity(i);
 			finish();
 	       
@@ -41,7 +41,7 @@ public class DiversityMod8 extends Activity {
 		        	
 		        	//System.out.println("UP Pressed");
 		        	
-		        	Intent i = new Intent(DiversityMod8.this, Customer.class);
+		        	Intent i = new Intent(DiversityMod8.this, Diversity.class);
 		        	startActivity(i);
 		        	
 		        	finish();

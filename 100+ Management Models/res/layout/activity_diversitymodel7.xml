@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="26dp"
         android:gravity="center_horizontal"
-        android:text="Management Modellen"
+        android:text="Management Models"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
         

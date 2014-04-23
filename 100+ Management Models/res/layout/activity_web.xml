@@ -30,7 +30,7 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="52dp"
-        android:text="Bestellen" 
+        android:text="Order product" 
         android:onClick = "onClick1" />
 
 </RelativeLayout>

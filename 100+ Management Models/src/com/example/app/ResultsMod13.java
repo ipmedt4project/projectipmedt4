@@ -11,7 +11,7 @@ public class ResultsMod13 extends Activity {
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.activity_resultsmodel13);
+			setContentView(R.layout.activity_resultmodel13);
 		}
 
 		@Override

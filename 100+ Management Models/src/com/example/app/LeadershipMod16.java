@@ -11,7 +11,7 @@ public class LeadershipMod16 extends Activity {
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.activity_leadershipmodel16);
+			setContentView(R.layout.activity_leadership16);
 		}
 
 		@Override

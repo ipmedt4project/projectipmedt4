@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Results extends Activity {
 
@@ -52,4 +53,15 @@ public class Results extends Activity {
 		    return(super.onOptionsItemSelected(item));
 		}
 
+		public void onClickmod13(View view){
+			Intent i = new Intent(Results.this, ResultsMod13.class);
+			startActivity(i);
+			finish();
+		}
+		
+		public void onClickmod14(View view){
+			Intent i = new Intent(Results.this, ResultsMod14.class);
+			startActivity(i);
+			finish();
+		}
 }
