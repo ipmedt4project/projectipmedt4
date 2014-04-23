@@ -5,14 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
-import android.view.View;
 
-public class Customer extends Activity {
+public class CustomerMod10 extends Activity {
 
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.activity_customer);
+			setContentView(R.layout.activity_customermodel10);
 		}
 
 		@Override
@@ -29,7 +28,7 @@ public class Customer extends Activity {
 		@Override
 	    public void onBackPressed()
 		{
-			Intent i = new Intent(Customer.this, HomeScreen.class);
+			Intent i = new Intent(CustomerMod10.this, Customer.class);
 			startActivity(i);
 			finish();
 	       
@@ -42,7 +41,7 @@ public class Customer extends Activity {
 		        	
 		        	//System.out.println("UP Pressed");
 		        	
-		        	Intent i = new Intent(Customer.this, HomeScreen.class);
+		        	Intent i = new Intent(CustomerMod10.this, Customer.class);
 		        	startActivity(i);
 		        	
 		        	finish();
@@ -52,21 +51,5 @@ public class Customer extends Activity {
 
 		    return(super.onOptionsItemSelected(item));
 		}
-		
-		public void onClickmod9(View view)
-		{
-			Intent i = new Intent(Customer.this, CustomerMod9.class);
-			startActivity(i);
-			
-			finish();
-		}
-		
-		public void onClickmod10(View view)
-		{
-			Intent i = new Intent(Customer.this, CustomerMod10.class);
-			startActivity(i);
-			
-			finish();
-		}
-		
+
 }
