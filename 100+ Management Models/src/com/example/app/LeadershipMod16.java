@@ -5,14 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
-import android.view.View;
 
-public class Leadership extends Activity {
+public class LeadershipMod16 extends Activity {
 
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.activity_leadership);
+			setContentView(R.layout.activity_leadershipmodel16);
 		}
 
 		@Override
@@ -29,7 +28,7 @@ public class Leadership extends Activity {
 		@Override
 	    public void onBackPressed()
 		{
-			Intent i = new Intent(Leadership.this, HomeScreen.class);
+			Intent i = new Intent(LeadershipMod16.this, Leadership.class);
 			startActivity(i);
 			finish();
 	       
@@ -42,7 +41,7 @@ public class Leadership extends Activity {
 		        	
 		        	//System.out.println("UP Pressed");
 		        	
-		        	Intent i = new Intent(Leadership.this, HomeScreen.class);
+		        	Intent i = new Intent(LeadershipMod16.this, Leadership.class);
 		        	startActivity(i);
 		        	
 		        	finish();
@@ -52,21 +51,5 @@ public class Leadership extends Activity {
 
 		    return(super.onOptionsItemSelected(item));
 		}
-		
-		public void onClickmod15(View view)
-		{
-			Intent i = new Intent(Leadership.this, LeadershipMod15.class);
-			startActivity(i);
-			
-			finish();
-		}
-		
-		public void onClickmod16(View view)
-		{
-			Intent i = new Intent(Leadership.this, LeadershipMod16.class);
-			startActivity(i);
-			
-			finish();
-		}
-		
+
 }

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Strategy extends Activity {
 
@@ -50,6 +51,22 @@ public class Strategy extends Activity {
 		    }
 
 		    return(super.onOptionsItemSelected(item));
+		}
+		
+		public void onClickmod5(View view)
+		{
+			Intent i = new Intent(Strategy.this, StrategyMod5.class);
+			startActivity(i);
+			
+			finish();
+		}
+		
+		public void onClickmod6(View view)
+		{
+			Intent i = new Intent(Strategy.this, StrategyMod6.class);
+			startActivity(i);
+			
+			finish();
 		}
 		
 }
