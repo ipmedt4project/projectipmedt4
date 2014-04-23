@@ -28,25 +28,22 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
 
-         <TextView
-             android:id="@+id/textView3"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_below="@+id/textView1"
-             android:layout_marginTop="14dp"
-             android:layout_marginLeft="20dp"
-             android:text="Hart, S. &amp; Milstein, M. 2003, The Sustainable Value Framework">
-         </TextView>
-
          <ImageView
              android:id="@+id/imageView1"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentTop="true"
+             android:layout_width="230dp"
+             android:layout_height="200dp"
+             android:layout_below="@+id/textView3"
+             android:layout_centerHorizontal="true"
              android:layout_marginTop="20dp"
-             android:padding="50dp"
              android:src="@drawable/model16" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="250dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/textView1"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="16dp"
+             android:text="Hart, S. &amp; Milstein, M. 2003, The Sustainable Value Framework" />
 
 </RelativeLayout>

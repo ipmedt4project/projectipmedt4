@@ -28,16 +28,6 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
 
-         <ImageView
-             android:id="@+id/imageView1"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_alignTop="@+id/textView1"
-             android:padding="50dp"
-             android:layout_marginTop="-20dp"
-             android:src="@drawable/model27" />
-
          <TextView
              android:id="@+id/textView3"
              android:layout_width="wrap_content"
@@ -46,5 +36,14 @@
              android:layout_centerHorizontal="true"
              android:layout_marginTop="15dp"
              android:text="Govindarajan, V. 2009, Reverse innovation" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="250dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/textView3"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="19dp"
+             android:src="@drawable/model27" />
 
 </RelativeLayout>

@@ -28,25 +28,21 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
 
-         <TextView
-             android:id="@+id/textView3"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_below="@+id/textView1"
-             android:layout_marginTop="14dp"
-             android:layout_marginLeft="20dp"
-             android:text="Trompenaars, F. &amp; Hampden Turner, C. 1997, 7 Dimensions for Culture">
-         </TextView>
-
          <ImageView
              android:id="@+id/imageView1"
              android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentTop="true"
+             android:layout_height="250dp"
              android:layout_centerHorizontal="true"
-             android:paddingBottom="150dp"
-             android:paddingTop="100dp"
+             android:layout_centerVertical="true"
              android:src="@drawable/model49" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="250dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/textView1"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="15dp"
+             android:text="Trompenaars, F. &amp; Hampden Turner, C. 1997, 7 Dimensions for Culture" />
 
 </RelativeLayout>

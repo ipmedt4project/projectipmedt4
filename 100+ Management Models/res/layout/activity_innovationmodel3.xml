@@ -30,12 +30,11 @@
 
          <ImageView
              android:id="@+id/imageView1"
-             android:layout_width="wrap_content"
+             android:layout_width="300dp"
              android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentTop="true"
-             android:layout_marginTop="-10dp"
-             android:padding="50dp"
+             android:layout_below="@+id/textView3"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="31dp"
              android:src="@drawable/model26" />
 
          <TextView
@@ -44,7 +43,7 @@
              android:layout_height="wrap_content"
              android:layout_below="@+id/textView1"
              android:layout_centerHorizontal="true"
-             android:layout_marginTop="14dp"
+             android:layout_marginTop="24dp"
              android:text="Chesbrough, H. 2003, Open innovation" />
 
 </RelativeLayout>
