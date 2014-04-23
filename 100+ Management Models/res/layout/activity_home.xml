@@ -126,7 +126,11 @@
         android:text="About us" 
         android:onClick="onClick10"/>
 
+<<<<<<< HEAD
     <Button
+=======
+ <!--   <Button
+>>>>>>> origin/master
         android:id="@+id/button9"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -135,5 +139,9 @@
         android:layout_alignTop="@+id/About"
         android:text="Database"
         android:onClick="onClick11"/>
+<<<<<<< HEAD
+=======
+ -->
+>>>>>>> origin/master
 
 </RelativeLayout>
