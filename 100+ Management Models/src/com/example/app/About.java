@@ -22,6 +22,9 @@ public class About extends Activity {
 		setContentView(R.layout.activity_about);
 		
 	}
+	
+	
+	
 
 public void videoView(View view){
 	

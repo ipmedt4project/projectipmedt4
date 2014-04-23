@@ -36,8 +36,13 @@ public class DatabaseHandler extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase db) {
     	 
-    	db.execSQL("DROP TABLE IF EXISTS " + TABLE_MODELS);
+    	
+    	
+    	String DELETE_MODEL_TABLE = "DROP TABLE IF EXISTS " + TABLE_MODELS;
+    	  	
+    	db.execSQL(DELETE_MODEL_TABLE);
     	System.out.println("Tables dropped");
+    	
     	
     	String CREATE_MODEL_TABLE = "CREATE TABLE " + TABLE_MODELS + "("
                 + KEY_ID + " INTEGER PRIMARY KEY," + KEY_TEXT + " TEXT " + ")";

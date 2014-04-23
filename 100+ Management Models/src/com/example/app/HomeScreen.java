@@ -15,15 +15,14 @@ import android.widget.Toast;
 
 public class HomeScreen extends Activity {
 
+	
+	private DatabaseModels dbmodels;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
 		
-		Intent i = new Intent(HomeScreen.this, DatabaseModels.class);
-		startActivity(i);
-		finish();
-
+		dbmodels = new DatabaseModels(savedInstanceState, this);
 		
 	}
 
@@ -100,14 +99,11 @@ public class HomeScreen extends Activity {
 		public void onClick10 (View view)
 		{ 
 			Intent i = new Intent(HomeScreen.this, About.class);
+			i.putE("db", dbmodels);
 			startActivity(i);
 			finish();
 		}
-		
-		public void onClick11 (View view)
-		{
 
-		}
 
 
 }

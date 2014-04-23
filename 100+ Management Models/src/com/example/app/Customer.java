@@ -55,18 +55,18 @@ public class Customer extends Activity {
 		
 		public void onClickmod9(View view)
 		{
-			Intent i = new Intent(Customer.this, CustomerMod9.class);
-			startActivity(i);
-			
-			finish();
+//			Intent i = new Intent(Customer.this, CustomerMod9.class);
+//			startActivity(i);
+//			
+//			finish();
 		}
 		
 		public void onClickmod10(View view)
 		{
-			Intent i = new Intent(Customer.this, CustomerMod10.class);
-			startActivity(i);
-			
-			finish();
+//			Intent i = new Intent(Customer.this, CustomerMod10.class);
+//			startActivity(i);
+//			
+//			finish();
 		}
 		
 }
