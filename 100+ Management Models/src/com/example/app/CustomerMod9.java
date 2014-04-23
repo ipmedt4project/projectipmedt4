@@ -11,7 +11,7 @@ public class CustomerMod9 extends Activity {
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.activity_customer);
+			setContentView(R.layout.activity_customermodel9);
 		}
 
 		@Override
