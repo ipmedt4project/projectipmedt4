@@ -25,7 +25,7 @@ public class About extends Activity {
 	}
 	
 	
-	
+// Als er op de video knop gedrukt wordt wordt er een externe browser geopened en daarin de youtube video afgespeeld 	
 
 public void videoView(View view){
 	
@@ -34,6 +34,8 @@ public void videoView(View view){
 	finish();
 	
 }
+
+//Onderstaande code is de code voor de knoppen om terug te keren naar de homepage
 
 @Override
 public boolean onKeyDown(int keyCode, KeyEvent event)

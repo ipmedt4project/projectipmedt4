@@ -23,11 +23,12 @@ public class HomeScreen extends Activity {
 		setContentView(R.layout.activity_home);
 		
 		dbmodels = new DatabaseModels(savedInstanceState, this);
-		
+		// De database word gemaakt zodra de applicatie op het homescreen aangekomen is
 	}
 
 
-	
+// Hieronder wordt gedefinieerd wat er gebeurd als er een knop ingedrukt wordt.
+//De knop start een nieuwe intent op en sluit de oude intent daarmee af			
 		public void onClick1 (View view)  
 		{  
 			Intent i = new Intent(HomeScreen.this, Sustainability.class);

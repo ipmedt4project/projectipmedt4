@@ -14,7 +14,7 @@ public class Innovation extends Activity {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_innovation);
 		}
-		
+		//Onderstaande code is de code voor de knoppen om terug te keren naar de homepage		
 		@Override
         public boolean onKeyDown(int keyCode, KeyEvent event)
 		{
@@ -52,7 +52,8 @@ public class Innovation extends Activity {
 
 		    return(super.onOptionsItemSelected(item));
 		}
-		
+		// Hieronder wordt gedefinieerd wat er gebeurd als er een knop ingedrukt wordt.
+		//De knop start een nieuwe intent op en sluit de oude intent daarmee af		
 		public void onClickmod3(View view)
 		{
 			Intent i = new Intent(Innovation.this, InnovationMod3.class);

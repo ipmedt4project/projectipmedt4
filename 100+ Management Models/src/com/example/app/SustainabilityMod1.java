@@ -13,7 +13,7 @@ public class SustainabilityMod1 extends Activity {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_sustainabilitymodel1);
 		}
-
+		//Onderstaande code is de code voor de knoppen om terug te keren naar de homepage
 		@Override
         public boolean onKeyDown(int keyCode, KeyEvent event)
 		{

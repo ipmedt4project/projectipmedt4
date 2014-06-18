@@ -12,17 +12,17 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DatabaseHandler extends SQLiteOpenHelper{
 	
 	
-	// All Static variables
+	// Alle Statische variabelen
     // Database Version
     private static final int DATABASE_VERSION = 1;
  
     // Database Name
     private static final String DATABASE_NAME = "models";
  
-    // Contacts table name
+    // table name
     private static final String TABLE_MODELS = "modelTexts";
  
-    // Contacts Table Columns names
+    // Table Columns names
     private static final String KEY_ID = "id";
     private static final String KEY_TEXT = "modeltext";
     int i;
@@ -66,7 +66,7 @@ public class DatabaseHandler extends SQLiteOpenHelper{
     
     
 
- // Adding new contact
+ // Adding a new model
     public void addModel(Model modeltext) {
         SQLiteDatabase db = this.getWritableDatabase();
      
@@ -78,7 +78,7 @@ public class DatabaseHandler extends SQLiteOpenHelper{
         db.close(); // Closing database connection
     }
     
-    // Getting single contact
+    // Getting a single model
     public Model getModel(int id) {
         SQLiteDatabase db = this.getReadableDatabase();
      
@@ -90,11 +90,11 @@ public class DatabaseHandler extends SQLiteOpenHelper{
      
         Model Modeltext = new Model(Integer.parseInt(cursor.getString(0)),
                 cursor.getString(1));
-        // return contact
+        // return model
         return Modeltext;
     }
     
- // Getting All Contacts
+ // Getting a All models
     public List<Model> getAllModels() {
         List<Model> modelList = new ArrayList<Model>();
         // Select All Query
@@ -113,12 +113,12 @@ public class DatabaseHandler extends SQLiteOpenHelper{
                 modelList.add(modeltext);
             } while (cursor.moveToNext());
         }
-        // return contact list
+        // return model list
         return modelList;
     }
  
     
- // Updating single contact
+ // Updating single model
     public int updateModel(Model modeltext) {
         SQLiteDatabase db = this.getWritableDatabase();
      
@@ -130,7 +130,7 @@ public class DatabaseHandler extends SQLiteOpenHelper{
                 new String[] { String.valueOf(modeltext.getID()) });
     }
     
-    // Deleting single contact
+    // Deleting single model
     public void deleteModel(Model modeltext) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_MODELS, KEY_ID + " = ?",

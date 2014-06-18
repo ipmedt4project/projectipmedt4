@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background" >
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -13,7 +13,7 @@
         android:text="100+ Management Models"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="24sp" />
-
+ <!-- Hier wordt een afbeelding gedefineerd -->
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="300dp"
@@ -22,7 +22,7 @@
         android:layout_centerVertical="true"
         android:background="@drawable/logo_afb"
         android:contentDescription="logoplaatje" />
-
+ <!-- Hier wordt een 'laadbalk' gedefineerd, maar het is een draaiend rondje -->
     <ProgressBar
         android:id="@+id/progressBar1"
         android:layout_width="wrap_content"

@@ -14,7 +14,7 @@ public class Customer extends Activity {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_customer);
 		}
-
+//Onderstaande code is de code voor de knoppen om terug te keren naar de homepage
 		@Override
         public boolean onKeyDown(int keyCode, KeyEvent event)
 		{
@@ -52,7 +52,8 @@ public class Customer extends Activity {
 
 		    return(super.onOptionsItemSelected(item));
 		}
-		
+// Hieronder wordt gedefinieerd wat er gebeurd als er een knop ingedrukt wordt.
+//De knop start een nieuwe intent op en sluit de oude intent daarmee af
 		public void onClickmod9(View view)
 		{
 			Intent i = new Intent(Customer.this, CustomerMod9.class);

@@ -13,7 +13,7 @@ public class ResultsMod13 extends Activity {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_resultmodel13);
 		}
-
+		//Onderstaande code is de code voor de knoppen om terug te keren naar de homepage
 		@Override
         public boolean onKeyDown(int keyCode, KeyEvent event)
 		{

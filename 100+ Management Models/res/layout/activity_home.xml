@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background" >
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -14,7 +14,7 @@
         android:onClick="onClick1"
         android:text="Sustainability"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:onClick="onClick3"
         android:text="Strategy"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
         android:onClick="onClick2"
         android:text="Innovation"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
         android:onClick="onClick4"
         android:text="Diversity"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
         android:onClick="onClick5"
         android:text="Customer"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
         android:onClick="onClick6"
         android:text="HRM"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
         android:onClick="onClick7"
         android:text="Results"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
         android:onClick="onClick8"
         android:text="Leadership &amp; Communication"
         android:textSize="12sp" />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
@@ -102,7 +102,7 @@
         android:text="Management Models"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/bestellen"
         style="?android:attr/buttonStyleSmall"
@@ -114,7 +114,7 @@
         android:layout_marginRight="20dp"
         android:text="Order"
         android:onClick="onClick9" />
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/About"
         style="?android:attr/buttonStyleSmall"

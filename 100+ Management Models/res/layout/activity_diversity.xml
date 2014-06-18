@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background" >
     
- 
+ <!-- Hier wordt een tekstweergave gedefineerd -->
         <TextView
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
@@ -16,7 +16,7 @@
         android:text="Management Models"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
-
+ <!-- Hier wordt een afbeelding gedefineerd -->
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:src="@drawable/diversity" />
-        
+ <!-- Hier wordt een tekstweergave gedefineerd -->  
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             android:text="Diversity"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
-        
+ <!-- Hier wordt een knop gedefineerd -->    
 		<Button
              android:id="@+id/button1"
              style="?android:attr/buttonStyleSmall"
@@ -47,7 +47,7 @@
              android:layout_toRightOf="@+id/textView2"
              android:onClick="onClickmod7"
              android:text="Model 30" />
-
+ <!-- Hier wordt een knop gedefineerd -->
          <Button
              android:id="@+id/button2"
              style="?android:attr/buttonStyleSmall"
@@ -58,7 +58,7 @@
              android:layout_toLeftOf="@+id/textView2"
              android:onClick="onClickmod8"
              android:text="Model 32" />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
          <TextView
              android:id="@+id/textView3"
              android:layout_width="wrap_content"

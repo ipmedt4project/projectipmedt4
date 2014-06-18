@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background" >
-
+ <!-- Hier wordt een knop gedefineerd -->
     <Button
         android:id="@+id/video"
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
         android:layout_marginBottom="59dp"
         android:text="Click here to watch the video" 
         android:onClick="videoView"/>
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="20dp"
         android:text="To focus our application of science, we worked in 2013 with Trompenaars-Hampden Turner to bundle and position what we consider to be the most powerful management theories for the organizations our students will work for." />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="20dp"
         android:text="At the Faculty of Management &amp; Business of University of Applied Sciences Leiden we identify, teach, test and enrich the most powerful academic theories for our 2.000 students in Communication, Economics, HRM, Social care management, Health care Management and Law. This is how we implement knowledge valorization: making academic knowledge work." />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"

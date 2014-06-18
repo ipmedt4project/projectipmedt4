@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:duplicateParentState="true" >
- 
+  <!-- Hier wordt een tekstweergave gedefineerd -->
         <TextView
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
@@ -16,7 +16,7 @@
         android:text="Management Models"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
-
+ <!-- Hier wordt een afbeelding gedefineerd -->
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:src="@drawable/customer" />
-        
+ <!-- Hier wordt een tekstweergave gedefineerd -->     
          <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             android:text="Customer"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF" />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
          <TextView
              android:id="@+id/textView3"
              android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
              android:layout_marginTop="14dp"
              android:layout_marginLeft="20dp"
              android:text="Fashion 5 (the customer is king and quality is crucial) becomes Element 5 (“Customer”)." />
-
+ <!-- Hier wordt een knop gedefineerd -->
          <Button
              android:id="@+id/button1"
              style="?android:attr/buttonStyleSmall"
@@ -57,7 +57,7 @@
              android:layout_toRightOf="@+id/textView2"
              android:onClick="onClickmod10"
              android:text="Model 42" />
-
+ <!-- Hier wordt een knop gedefineerd -->
          <Button
              android:id="@+id/button2"
              style="?android:attr/buttonStyleSmall"
@@ -68,7 +68,7 @@
              android:layout_toLeftOf="@+id/textView2"
              android:onClick="onClickmod9"
              android:text="Model 41" />
-
+ <!-- Hier wordt een tekstweergave gedefineerd -->
          <TextView
              android:id="@+id/textView4"
              android:layout_width="wrap_content"

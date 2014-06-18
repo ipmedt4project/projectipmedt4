@@ -16,7 +16,8 @@ import android.widget.EditText;
 public class Amazon extends Activity {
 
 	private WebView browser;
-	
+
+// Hier wordt een webview gecreeërd die vervolgens de website met de desbetreffende URL opend, dit alles draait in de applicatie zelf
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,6 +33,9 @@ public class Amazon extends Activity {
 		browser.loadUrl("http://www.amazon.com/100-Management-Models-understand-powerful/dp/1908984228");
 	}
 
+	
+	//Onderstaande code is de code voor de knoppen om terug te keren naar de homepage
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

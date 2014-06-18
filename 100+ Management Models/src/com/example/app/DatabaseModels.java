@@ -27,22 +27,22 @@ public class DatabaseModels{
 		db.onCreate(db.getWritableDatabase());
     	System.out.println("Start Database");
        
-    
+  // De database is aangeroepen.  
                  
         /**
          * CRUD Operations
          * */
-        // Inserting Contacts
+        // Inserting Texts in database
         Log.d("Insert: ", "Inserting .."); 
         db.addModel(new Model("100+ Management Models offers a quick overview of the key features and potential applications of each of the most important models in nine different categories."));        
          
-        // Reading all contacts
+        // Reading all Texts in database
         Log.d("Reading: ", "Reading all contacts.."); 
         List<Model> modeltexts = db.getAllModels();       
          
         for (Model md : modeltexts) {
             String log = "Id: "+md.getID()+" ,Text: " + md.getModeltext();
-                // Writing Contacts to log
+        // Writing models to log
         Log.d("Model: ", log);
         
         
